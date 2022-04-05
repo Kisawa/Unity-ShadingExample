@@ -35,9 +35,11 @@ No culling (TODO: cull by compute shader or quadtree)
 ![image](https://user-images.githubusercontent.com/71002504/161763346-2fca316b-3a83-410e-ba36-ccf924ff6e55.png)  
 
 ## Screen effects
-* Ground Truth Ambient Occlusion:  
+* Ground Truth Ambient Occlusion:
+
 ![image](https://user-images.githubusercontent.com/71002504/161788634-a8133e81-e844-401c-9286-9e7b55a7329a.png)  
 ![image](https://user-images.githubusercontent.com/71002504/161788883-9d05c1de-5ab9-4e4a-a1f4-2a08a50ddae9.png)  
-* Temporal Anti-Aliasing
+* Temporal Anti-Aliasing:
+
 ![image](https://user-images.githubusercontent.com/71002504/161789750-a817ee84-571e-49bc-b490-1c66d40b2788.png)  
 ![image](https://user-images.githubusercontent.com/71002504/161789803-f8ef07b1-cac6-4f6a-9e05-cb1335263da2.png)  
