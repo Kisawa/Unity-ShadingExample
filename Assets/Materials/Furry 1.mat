@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Furry 1
+  m_Shader: {fileID: 4800000, guid: 4ee618a21b9a8bc4785de7c356dfa57d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _FurryLayerMap:
+        m_Texture: {fileID: 2800000, guid: dfb8d85394d37ca4889888f263cc4136, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 2}
+    - _FurryLayerMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnisotropicShift0: 1.68
+    - _AnisotropicShift1: 1.11
+    - _Fresnel: 5
+    - _FresnelStrength: 0
+    - _FurryThickness: 2
+    - _OcclusionStrength: 0.956
+    - _RimStrength: 0.37
+    - _SpecularExponent: 70
+    - _SpecularGloss0: 215
+    - _SpecularGloss1: 160
+    - _SpecularShift: 0.5
+    - _SpecularStrength: 1
+    - _SpecularStrength0: 1
+    - _SpecularStrength1: 0.107
+    - _Test: 1
+    - _Translucent: 1
+    m_Colors:
+    - _ColorTint: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
+    - _OcclusionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
