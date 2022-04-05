@@ -7,6 +7,7 @@ Supports：
 * Light Probes
 
 ![微信图片_20220405172953](https://user-images.githubusercontent.com/71002504/161746235-2fff49bb-80e7-4857-bfec-94a28520b0e4.png)  
+![image](https://user-images.githubusercontent.com/71002504/161773376-d11c9791-0e63-4932-a7ad-0d186f5cef1e.png)  
 ****
 ## Realtime Refraction  
 by the mesh's thickness(back depthNormal) to calc approximate focus  
