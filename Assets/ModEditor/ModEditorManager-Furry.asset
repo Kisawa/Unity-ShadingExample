@@ -21,7 +21,6 @@ MonoBehaviour:
     parent: {fileID: 11400000}
     keyList:
     - '#UNKNOWN:1'
-    - '#UNKNOWN:8'
     - '#UNKNOWN:17'
     - '#UNKNOWN:18'
     - '#UNKNOWN:19'
@@ -29,7 +28,7 @@ MonoBehaviour:
     - '#UNKNOWN:22'
     - '#UNKNOWN:23'
     - '#UNKNOWN:27'
-    valList: 010101010101010101
+    valList: 0101010101010101
   meshDic:
     keyList: []
     originList: []

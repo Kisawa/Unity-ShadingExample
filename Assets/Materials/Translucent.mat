@@ -95,7 +95,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Ior: 0.97
+    - _Ior: 0.965
     - _Metallic: 1
     - _NumIter: 16
     - _OcclusionStrength: 1

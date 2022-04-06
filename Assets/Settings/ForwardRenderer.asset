@@ -322,6 +322,6 @@ MonoBehaviour:
     LayerMask:
       serializedVersion: 2
       m_Bits: 64
-    PassCount: 20
-    FurryStep: 0.0072
-    GravityStrength: 0.0646
+    PassCount: 30
+    FurryStep: 0.005
+    GravityStrength: 0.05
