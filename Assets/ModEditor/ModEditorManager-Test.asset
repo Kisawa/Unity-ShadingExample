@@ -14,31 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockTarget: 1
   target:
-    exposedName: '#UNKNOWN:17'
+    exposedName: '#UNKNOWN:1'
     defaultValue: {fileID: 0}
-  gameCameraFollow: 1
+  gameCameraFollow: 0
   actionableDic:
     parent: {fileID: 11400000}
     keyList:
-    - '#UNKNOWN:3'
-    - '#UNKNOWN:4'
-    - '#UNKNOWN:11'
-    - '#UNKNOWN:17'
-    valList: 00010101
+    - '#UNKNOWN:1'
+    - '#UNKNOWN:8'
+    - '#UNKNOWN:9'
+    - '#UNKNOWN:12'
+    - '#UNKNOWN:19'
+    - '#UNKNOWN:25'
+    valList: 010101010101
   meshDic:
     keyList:
-    - '#UNKNOWN:3'
-    - '#UNKNOWN:4'
-    - '#UNKNOWN:17'
+    - '#UNKNOWN:1'
+    - '#UNKNOWN:8'
+    - '#UNKNOWN:9'
+    - '#UNKNOWN:25'
     originList:
-    - {fileID: 4300000, guid: f34a6f6ac3e2a2446b47b80056b738b5, type: 2}
-    - {fileID: 4300000, guid: c4be73741a92f534d86d15454900d0e6, type: 2}
-    - {fileID: 4300000, guid: 472d422392d7bd549abb893015dfd7c9, type: 2}
+    - {fileID: 4300000, guid: 525bc1ea5e54e5f42b77352e0dc342f2, type: 2}
+    - {fileID: 4300000, guid: c5a4ac0976649d34a9a0aa6b68397231, type: 2}
+    - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - {fileID: 4300000, guid: 7bf0027a92ecce84e8ce11d6ca889c92, type: 2}
   sceneCollectionView: 1
-  unselectedVertexColor: {r: 1, g: 1, b: 1, a: 1}
-  selectedVertexColor: {r: 0, g: 0, b: 0, a: 1}
-  vertexScale: 0.57
-  vertexWithZTest: 0
+  unselectedVertexColor: {r: 0, g: 0, b: 0, a: 1}
+  selectedVertexColor: {r: 1, g: 0, b: 0, a: 1}
+  vertexScale: 1
+  vertexWithZTest: 1
   hideUnselectedVertex: 1
   normalView: 0
   normalViewUnfold: 1
@@ -47,9 +51,9 @@ MonoBehaviour:
   tangentView: 0
   tangentViewUnfold: 1
   tangentColor: {r: 0, g: 1, b: 0, a: 1}
-  tangentLength: 0.04
-  arrowLength: 0.2
-  arrowSize: 0.1
+  tangentLength: 0.14
+  arrowLength: 0.5
+  arrowSize: 0.36
   gridView: 0
   gridViewUnfold: 1
   gridColor: {r: 1, g: 1, b: 1, a: 1}
@@ -60,25 +64,25 @@ MonoBehaviour:
   vertexColorView: 0
   depthMapView: 0
   depthMapViewUnfold: 1
-  depthCompress: 0.1
+  depthCompress: 0.09
   normalMapView: 0
   vertexBrushUnfold: 1
   vertexBrushType: 0
-  vertexBrushStrength: 1
-  vertexBrushColor: {r: 0, g: 0, b: 0, a: 1}
-  vertexBrushColorFrom: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  vertexBrushStrength: 0.9
+  vertexBrushColor: {r: 1, g: 1, b: 1, a: 1}
+  vertexBrushColorFrom: {r: 0, g: 0, b: 0, a: 1}
   vertexBrushColorFromStep: 0
   vertexBrushColorTo: {r: 1, g: 1, b: 1, a: 1}
-  vertexBrushColorToStep: 0.1
-  vertexBrushViewColor: {r: 0, g: 0, b: 0, a: 0.53333336}
-  vertexBrushSize: 0.27000004
-  vertexBrushDepth: 20
+  vertexBrushColorToStep: 1
+  vertexBrushViewColor: {r: 0.16077948, g: 1, b: 0, a: 0.53333336}
+  vertexBrushSize: 0.0699999
+  vertexBrushDepth: 1.2406565
   vertexBrushClamp: 0
   vertexBrushClampMin: 0
   vertexBrushClampMax: 1
   writeUnfold: 1
   writeType: 0
-  writeTargetType: 5
+  writeTargetType: 0
   customTargetType_X: 0
   customTargetPass_X: 0
   customTargetType_Y: 0
@@ -88,17 +92,17 @@ MonoBehaviour:
   customTargetType_W: 4
   customTargetPass_W: 3
   calcUtilUnfold: 1
-  calcUtilIndex: 0
+  calcUtilIndex: 2
   brushUtilIndex: 1
   texBrushTexelSize: {x: 1024, y: 1024}
   texBrushUnfold: 1
   texBrushForegroundUnfold: 1
-  texBrushRangeViewColor: {r: 0, g: 1, b: 0, a: 1}
+  texBrushRangeViewColor: {r: 1, g: 1, b: 1, a: 1}
   textureBaseColor: {r: 0, g: 0, b: 0, a: 0}
-  textureBrushColor: {r: 1, g: 1, b: 1, a: 1}
-  texBrushRange: {x: 0.001, y: 0.001, z: 0}
+  textureBrushColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+  texBrushRange: {x: 0.087999955, y: 0.11100003, z: 0}
   texUtilUnfold: 1
-  texUtilIndex: 0
+  texUtilIndex: 2
   colorMaskUnfold: 1
   colorMask: {r: 1, g: 1, b: 1, a: 1}
   texturePassView: 0
