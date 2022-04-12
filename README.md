@@ -2,7 +2,7 @@
 ## Here are some shading and effect made with URP pipeline in this repository
 ****
 ## Toon Shading  
-Supports：  
+__Supports：__  
 * Light (Directional, Point, Spot, Area)
 * Light Intensity, Indirect Multipiler
 * Environment Lighting (Skybox, Gradient, Color)
