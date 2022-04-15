@@ -95,8 +95,8 @@ Shader "Unlit/Translucent"
 					float3 backPositionVS =  CalcViewPos(_uv, backDepth01);
 					float disFromFrontToBack = length(backPositionVS - _positionVS);
 					float3 nextPositionVS = _positionVS + refractDirVS * disFromFrontToBack;
-					float4 nextPositionNDC = ComputeScreenPos(TransformWViewToHClip(nextPositionVS));
-					_uv = nextPositionNDC.xy / nextPositionNDC.w;
+					float4 nextPositionSS = ComputeScreenPos(TransformWViewToHClip(nextPositionVS));
+					_uv = nextPositionSS.xy / nextPositionSS.w;
 					_positionVS = nextPositionVS;
 				}
 				float3 _viewVS = normalize(_positionVS);
