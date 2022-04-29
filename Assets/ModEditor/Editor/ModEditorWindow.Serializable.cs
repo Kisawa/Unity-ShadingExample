@@ -16,7 +16,7 @@ namespace ModEditor
             TexPassMergePanel3.BindEditor(this);
             TexPassMergePanel4.BindEditor(this);
         }
-        
+
         void targetChanged_serializableData()
         {
             LocalRemapCoordClear();
@@ -150,7 +150,7 @@ namespace ModEditor
 
         #region AvgNormal
         [SerializeField]
-        float approximateRefer = .001f;
+        float approximateRefer = .00001f;
         public float ApproximateRefer
         {
             get => approximateRefer;
@@ -176,6 +176,20 @@ namespace ModEditor
                 useUnityNormal = value;
             }
         }
+
+        [SerializeField]
+        bool mappedTo01 = false;
+        public bool MappedTo01
+        {
+            get => mappedTo01;
+            set
+            {
+                if (value == mappedTo01)
+                    return;
+                Undo.RecordObject(this, "AvgNormal MappedTo01 Changed");
+                mappedTo01 = value;
+            }
+        }
         #endregion
 
         #region Copy
@@ -190,6 +204,20 @@ namespace ModEditor
                     return;
                 Undo.RecordObject(this, "Copy CurrentData Changed");
                 copyCurrentData = value;
+            }
+        }
+
+        [SerializeField]
+        Mesh copyOriginMesh;
+        public Mesh CopyOriginMesh
+        {
+            get => copyOriginMesh;
+            set
+            {
+                if (value == copyOriginMesh)
+                    return;
+                Undo.RecordObject(this, "Copy OriginMesh Changed");
+                copyOriginMesh = value;
             }
         }
         #endregion
@@ -268,7 +296,7 @@ namespace ModEditor
         {
             Undo.RecordObject(this, "LocalRemap Coord Changed");
             LocalRemapCoord.RemoveAt(index);
-            if(LocalRemapCoord.Count == 0)
+            if (LocalRemapCoord.Count == 0)
                 LocalRemapCoord.Add(Vector3.zero);
         }
 
