@@ -246,7 +246,7 @@ Shader "Unlit/Toon"
                 half4 col = tex2D(_MainTex, input.uv.xy) * _Color;
 				float3 normalWS = normalize(input.normalWS.xyz);
 				float3 viewWS = normalize(GetWorldSpaceViewDir(input.positionWS.xyz));
-
+				
 				half3 indirectCol = SampleSH(0);
 				half3 lightCol = 0, specCol = 0;
 
