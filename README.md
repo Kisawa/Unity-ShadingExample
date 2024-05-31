@@ -1,25 +1,6 @@
 # Unity-URP_Example
 ## Here are some shading and effect made with URP pipeline in this repository
 ****
-/*
-## Toon Shading  
-__Supports:__  
-* Light (Directional, Point, Spot, Area)
-* Light Intensity, Indirect Multipiler
-* Environment Lighting (Skybox, Gradient, Color)
-* Light Probes
-
-__Features:__  
-* RenderObjects (LightMode Tags: "Outline")
-* StencilExpressionRenderer
-
-![image](https://user-images.githubusercontent.com/71002504/161746235-2fff49bb-80e7-4857-bfec-94a28520b0e4.png)  
-
->Red, Green and Blue lights
-
-![image](https://user-images.githubusercontent.com/71002504/161773804-9387bbba-42eb-406e-925f-aae5153f1480.png)  
-****
-*/
 ## Realtime Refraction 
 __Features:__  
 * DepthViewNormal (Cull: Front   Set_UVToView: true)
