@@ -7,8 +7,7 @@ __Features:__
 * Opaque Texture
 
 >by the mesh's thickness(back depthNormal) to calc approximate focus  
-
-![image](https://user-images.githubusercontent.com/71002504/163524758-7c6c5691-315d-463c-b18a-cae3088d3098.png)  
+ 
 ![image](https://user-images.githubusercontent.com/71002504/161746389-0193f14b-baa4-439e-a5e0-e78f8524783d.png)  
 ****
 ## Furry  
