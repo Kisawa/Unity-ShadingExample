@@ -1,5 +1,5 @@
 # Unity-URP_Example
-## Here are some shading and effect made with URP pipeline in this repository
+## There are some shading and effect made with URP pipeline in this repository
 ****
 ## Realtime Refraction 
 __Features:__  
