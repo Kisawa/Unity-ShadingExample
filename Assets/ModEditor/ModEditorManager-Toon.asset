@@ -50,6 +50,7 @@ MonoBehaviour:
   gridColor: {r: 1, g: 1, b: 1, a: 1}
   gridWithZTest: 0
   uvView: 0
+  uvViewType: 0
   uvViewUnfold: 1
   uvAlpha: 1
   vertexColorView: 0
@@ -57,6 +58,11 @@ MonoBehaviour:
   depthMapViewUnfold: 1
   depthCompress: 0.1
   normalMapView: 0
+  mapView: 0
+  mapViewUnfold: 1
+  mapViewTex: {fileID: 0}
+  mapViewPass: 0
+  mapViewColorTint: {r: 1, g: 1, b: 1, a: 1}
   vertexBrushUnfold: 1
   vertexBrushType: 0
   vertexBrushStrength: 1

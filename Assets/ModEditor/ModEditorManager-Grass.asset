@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 452e47ba08746704e8fda6167da66445, type: 3}
   m_Name: ModEditorManager-Grass
   m_EditorClassIdentifier: 
-  lockTarget: 1
+  lockTarget: 0
   target:
     exposedName: 
     defaultValue: {fileID: 0}
@@ -45,6 +45,7 @@ MonoBehaviour:
   gridColor: {r: 1, g: 1, b: 1, a: 1}
   gridWithZTest: 0
   uvView: 0
+  uvViewType: 0
   uvViewUnfold: 1
   uvAlpha: 1
   vertexColorView: 0
@@ -52,6 +53,11 @@ MonoBehaviour:
   depthMapViewUnfold: 1
   depthCompress: 0.1
   normalMapView: 0
+  mapView: 0
+  mapViewUnfold: 1
+  mapViewTex: {fileID: 0}
+  mapViewPass: 0
+  mapViewColorTint: {r: 1, g: 1, b: 1, a: 1}
   vertexBrushUnfold: 1
   vertexBrushType: 0
   vertexBrushStrength: 1
